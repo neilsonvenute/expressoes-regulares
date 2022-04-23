@@ -21,9 +21,11 @@ const arquivos = [
   'lista de compras.txt',
 ]
 
-const html = '<p>Olá mundo</> <p>Olá de novo</p> <div>Sou a div<div>'
+const html = '<p>Olá mundo</p> <p>Olá de novo</p> <div>Sou a div</div>'
+
+const alfabeto = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ atenção abcdefghijklmnopqrstuvwxyz ®i 1=0123456789 i'
 
 
 module.exports = {
-  texto,arquivos,html
+  texto,arquivos,html,alfabeto
 }
