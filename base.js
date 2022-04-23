@@ -21,8 +21,12 @@ const arquivos = [
   'lista de compras.txt',
 ]
 
-const html = '<p>Olá mundo</p> <p>Olá de novo</p> <div>Sou a div</div>'
-
+const html = `<p>Olá mundo</p> <p>Olá de novo</p> <div>Sou a div</div>`
+const html2 = `<p
+data-teste='teste'
+class="teste teste">
+  Olá mundo
+</p> <p>Olá mundo</p> <div>Sou a div</div>`
 
 const cpfs = `
 Os CPFs são:
@@ -53,5 +57,5 @@ const alfabeto = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ atenção abcdefghijklmnopqrstuvwxy
 
 
 module.exports = {
-  texto,arquivos,html,alfabeto,cpfs,ips,cpfs2
+  texto,arquivos,html,alfabeto,cpfs,ips,cpfs2,html2
 }
